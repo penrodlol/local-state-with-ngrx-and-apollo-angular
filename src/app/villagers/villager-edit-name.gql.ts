@@ -22,7 +22,7 @@ export class VillagerEditNameGQL extends Mutation<
   IVillagerEditNameVariables
 > {
   document = gql`
-    mutation editVillagerName($id: ID!, $name: String) {
+    mutation editVillagerName($id: ID!, $name: String!) {
       editVillagerName(id: $id, name: $name) @client {
         id
         name
