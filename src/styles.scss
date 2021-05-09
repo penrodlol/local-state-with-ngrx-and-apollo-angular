@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #292929;
+  padding: 100px 0;
+}
+
+section {
+  margin: 0 auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 95%;
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+div {
+  background: #464646;
+  color: #e6e6e7;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  border: solid 3px #cfc0d8;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #d0a4e9;
+}

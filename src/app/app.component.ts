@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<app-villagers></app-villagers>`,
 })
-export class AppComponent {
-  title = 'local-state-with-ngrx-and-apollo-angular';
-}
+export class AppComponent { }

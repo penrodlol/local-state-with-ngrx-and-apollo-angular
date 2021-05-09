@@ -30,7 +30,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "graphql-tag",
+              "zen-observable"
+            ]
           },
           "configurations": {
             "production": {
